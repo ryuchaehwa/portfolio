@@ -8,6 +8,7 @@ import PortfolioContainer from "../components/portfolio/PortfolioContainer.vue";
 import ContactContainer from "../components/contact/ContactContainer.vue";
 
 const router = new VueRouter({
+  mode: 'hash',
   routes: [
     {
       path: "/",
