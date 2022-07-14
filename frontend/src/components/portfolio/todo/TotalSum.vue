@@ -1,9 +1,9 @@
 <template>
-  <div>contact</div>
+  <div>total sum</div>
 </template>
 
 <script>
 export default {
-  name: "ContactContainer",
+  name: "TotalSum",
 };
 </script>

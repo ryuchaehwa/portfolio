@@ -9,7 +9,7 @@
     "
   >
     <!-- 1 -->
-    <div style="display: flex">
+    <div style="display: flex" @click="changeRoute('/todo')">
       <div
         style="
           background-color: #404040;
@@ -269,5 +269,12 @@
 <script>
 export default {
   name: "PortfolioContainer",
+  methods: {
+    changeRoute(path) {
+
+      console.log('todo', path)
+      this.$router.push('/portfolio/todo')
+    }
+  }
 };
 </script>
