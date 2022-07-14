@@ -13,6 +13,7 @@ import MapContainer from "../components/portfolio/map/MapContainer.vue";
 import PublicApiContainer from "../components/portfolio/public-api/PublicApiContainer.vue";
 
 const router = new VueRouter({
+  mode: 'hash',
   routes: [
     {
       path: "/",
